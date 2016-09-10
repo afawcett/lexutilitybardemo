@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>buttons</members>
+        <members>inputs</members>
+        <members>outputs</members>
+        <members>tabs</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>UtilityBarDemo</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>UtilityBarDemo</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>38.0</version>
+</Package>

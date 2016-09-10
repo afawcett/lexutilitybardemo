@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <div style="padding:10px">
+        <div><lightning:badge label="lighting:input number" /></div>
+        <div>&nbsp;</div>
+        <div><lightning:input name="quantity" value="1234567890" label="Quantity" maxlength="10"/></div>
+        <div>&nbsp;</div>
+        <div><lightning:badge label="lighting:input currency" /></div>
+        <div>&nbsp;</div>
+        <div><lightning:input type="number" name="ItemPrice" label="Price" value="12345" formatter="currency"/></div>
+        <div>&nbsp;</div>
+        <div><lightning:badge label="lighting:input validation" /></div>
+        <div>&nbsp;</div>
+        <div><lightning:input name="firstname" label="First Name" minlength="5" messageWhenBadInput="Your entry must be at least 5 characters." /></div>
+        <div>&nbsp;</div>
+    </div>
+</aura:component>

@@ -1,0 +1,34 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <div style="padding:10px">
+        <div><lightning:badge label="lightning:buttonMenu" /></div>
+        <div>&nbsp;</div>
+        <div>
+            <lightning:buttonMenu alternativeText="More options" onselect="{! c.doSomething }">
+                <lightning:menuItem label="Menu Item One"   value="1" />
+                <lightning:menuItem label="Menu Item Two"   value="2" />
+                <lightning:menuItem label="Menu Item Three" value="3" />
+                <lightning:menuItem label="Menu Item Four"  value="4" disabled="true" />
+            </lightning:buttonMenu>
+        </div>        
+        <div>&nbsp;</div>
+    	<div><lightning:badge label="lighting:button" /></div>
+        <div>&nbsp;</div>
+        <div><lightning:button label="My Button"/></div>
+        <div>&nbsp;</div>
+        <div><lightning:badge label="lightning:buttonGroup" /></div>
+        <div>&nbsp;</div>
+        <div>
+            <lightning:buttonGroup >
+                <lightning:button label="Refresh" />
+                <lightning:button label="Edit" />
+                <lightning:button label="Save" />
+            </lightning:buttonGroup>
+        </div>
+        <div>&nbsp;</div>
+        <div><lightning:badge label="lightning:buttonIcon" /></div>
+        <div>&nbsp;</div>
+        <lightning:buttonIcon iconName="utility:close" variant="container"/>
+        <lightning:buttonIcon iconName="utility:custom_apps" variant="container"/>
+        <lightning:buttonIcon iconName="utility:dayview" variant="container"/>
+    </div>    
+</aura:component>

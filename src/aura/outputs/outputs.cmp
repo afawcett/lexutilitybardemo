@@ -1,0 +1,15 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <div style="padding:10px">
+        <div><lightning:badge label="lighting:formattedDateTime" /></div>
+        <div>&nbsp;</div>
+        <div><lightning:formattedDateTime value="1470174029742" /></div>
+        <div><lightning:formattedDateTime value="1470174029742" year="2-digit" month="short" day="2-digit" weekday="long"/></div>
+        <div><lightning:formattedDateTime value="1470174029742" year="numeric" month="numeric" day="numeric"  hour="2-digit" minute="2-digit" timeZoneName="short" /></div>
+        <div>&nbsp;</div>	
+        <div><lightning:badge label="lighting:formattedNumber" /></div>
+        <div>&nbsp;</div>
+        <div><lightning:formattedNumber value="5000" style="currency" /></div>
+        <div><lightning:formattedNumber value="0.5" style="percent" /></div>
+        <div>&nbsp;</div>
+    </div>   
+</aura:component>

@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <lightning:tabset >
+        <lightning:tab label="Buttons">
+            <c:buttons />
+        </lightning:tab>
+        <lightning:tab label="Input">
+            <c:inputs />
+        </lightning:tab>
+        <lightning:tab label="Output">
+            <c:outputs />
+        </lightning:tab>
+    </lightning:tabset>	
+</aura:component>
